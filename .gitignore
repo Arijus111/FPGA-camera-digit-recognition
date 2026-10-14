@@ -1,0 +1,54 @@
+# =========================================================
+#  Image_Processing – Vivado + VS Code + Python
+# =========================================================
+
+# ---------- Vivado ----------
+# Visas Vivado projektas (atkuriamas su build.tcl)
+vivado/
+
+# Jei Vivado kur nors sukurtų failų už vivado/ aplanko ribų
+.Xil/
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.gen/
+*.ip_user_files/
+*.hbs/
+*.jou
+*.log
+*.str
+*.backup.*
+*.wdb
+*.pb
+webtalk*
+xsim.dir/
+usage_statistics_webtalk.*
+vivado_pid*.zip
+
+# Sugeneruoti rezultatai (bitstream, checkpoint'ai)
+*.bit
+*.bin
+*.dcp
+*.ltx
+
+# ---------- Python ----------
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# MNIST ir kiti parsiunčiami duomenys (~50 MB)
+data/
+
+# ---------- VS Code ----------
+# Bendri projekto nustatymai lieka, asmeniniai – ne
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ---------- Operacinė sistema ----------
+Thumbs.db
+desktop.ini
+.DS_Store
